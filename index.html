@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home_3</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/icons/2913988.png" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+    <h2>Contact Form:</h2>
+</header>
+
+<main>
+    <form class="data">
+        <fieldset>
+            <legend class="personal_data">Personal data:</legend>
+
+            <label for="name">Your name:</label>
+            <input type="text" id="name" placeholder="Please, write your name" required>
+            <br>
+
+            <label for="surname">Your surname:</label>
+            <input type="text" id="surname" placeholder="Please, write your surname" required>
+            <br>
+
+            <label for="password">Your password:</label>
+            <input type="text" id="password" placeholder="Please, write your password" required>
+            <br>
+
+
+            <label>Choose your speciality:
+                <select>
+                        <option value="Front-end">Front-end</option>
+                        <option value="Back-end">Back-end</option>
+                        <option value="Full-stack">Full-stack</option>
+                </select>
+            </label>
+
+            <br>
+
+            <label>Choose your speciality:
+                <select class="speciality">
+                        <option value="Front-end">Front-end</option>
+                        <option value="Back-end">Back-end</option>
+                        <option value="Full-stack">Full-stack</option>
+                </select>
+            </label>
+            <br>
+
+            <label>Choose your university:
+                <select class="university">
+                        <option value="BNTU">BNTU</option>
+                        <option value="BSU">BSU</option>
+                        <option value="BSUIR">BSUIR</option>
+                </select>
+            </label>
+            <br>
+
+            <label>Choose your skills:
+                <select class="skills" multiple>
+                        <option value="React">React</option>
+                        <option value="Angular">Angular</option>
+                        <option value="Vue">Vue</option>
+                        <option value="Node.js">Node.js</option>
+                        <option value="Python">Python</option>
+                </select>
+            </label>
+            <br>
+
+        </fieldset>
+    </form>
+
+    <form class="message">
+        <fieldset>
+        <legend class="personal_message">Personal message:</legend>
+            <label>Enter your message, please:
+            <textarea class="font-size" placeholder="Please, enter your name" rows="5" cols="80"></textarea>
+            </label>
+        </fieldset>
+    </form>
+
+    <form class="systems">
+        <fieldset>
+            <legend class="os_systems">Choose your OS systems:</legend>
+            <p>
+                <label>
+                    <input type="checkbox">
+                </label> MacOS
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox">
+                </label> Linux
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox">
+                </label> Windows
+            </p>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <button class="button" type="submit">Submit</button>
+</footer>
+</body>
+</html>
