@@ -1,28 +1,36 @@
-.header {
+.head {
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
     color: #5a226b;
 }
 
-.data, .message, .systems {
+.data,
+.message,
+.systems {
     text-align: left;
     color: black;
 }
 
-.personal_data, .personal_message, .os_systems {
+.personal_data,
+.personal_message,
+.os_systems {
     text-align: center;
     color: #5a226b;
     font-size: 18px;
 }
 
-#name, #surname, #password {
+#name,
+#surname,
+#password {
     margin: 0.5rem;
     padding: 0.5rem;
     font-size: 14px;
 }
 
-.speciality, .university, .skills {
+.speciality,
+.university,
+.skills {
     margin: 0.5rem;
     padding: 0.5rem;
 }
@@ -46,4 +54,21 @@
 
 .button:hover {
     opacity: 0.6;
+}
+
+table {
+    width: 100%;
+
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th,
+td  {
+    border: 0.5px solid #d3d3d3;
+    padding: 10px 10px;
+}
+
+.background_grey {
+    background-color: #d3d3d3;
 }
